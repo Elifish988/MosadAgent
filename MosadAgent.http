@@ -1,0 +1,11 @@
+@MosadAgent_HostAddress = http://localhost:5271
+
+GET {{MosadAgent_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{MosadAgent_HostAddress}}/todos/1
+Accept: application/json
+
+###
